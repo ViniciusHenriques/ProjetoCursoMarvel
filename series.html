@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Marvel - Séries</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type ="image/x-icon">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<nav class="row">
+				<div class="col-md-12 navbar navbar-inverse navbar-fixed-top menu" id="menu">
+					<div class="col-md-3 col-sm-4 col-xs-7" id="logo" >
+						<img src="img/logo.png" class="imgFull" >
+					</div>
+					<div class="col-lg-9 col-sm-8 col-xs-5 collapse navbar-collapse" id="meumenu">
+
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li class="dropdown">
+						        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Heróis
+						        <span class="caret"></span></a>
+						        <ul class="dropdown-menu">
+						          <li><a href="filmes.html">Cinema</a></li>
+						          <li><a href="series.html">Séries</a></li>
+						        </ul>
+						      </li>
+							<li><a href="index.html#contato">Contato</a></li>
+						</ul>
+					</div>
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meumenu" style="background-color:black">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+			</div>
+		 	<section class="row" id="herois">
+		 		<div class="col-md-4 col-sm-6"  onmouseover="sinopse('luke','sinopse','nome','titulo')" onmouseout="imagem('luke','sinopse','nome','titulo')  ">
+					<div class="thumbnail series">
+						<img src="img/luke.jpg" id="luke">
+						<h3 class="titulo" id="titulo">Luke Cage</h3>
+						<p id="sinopse" class="sinopse_series">Depois que um experimento sabotado ter deixado Luke Cage com uma super-força e pele indestrutível, ele se torna um fugitivo que tenta reconstruir a vida no Harlem, bairro de Nova York. Mas logo ele é forçado a sair das sombras e lutar pela sua cidade, bem como confrontar o passado do qual tentou fugir e assumir a identidade de herói.</p>
+						<div class="caption">
+							<h3 id="nome">Luke Cage</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('jones','sinopse2','nome2','titulo2')" onmouseout="imagem('jones','sinopse2','nome2','titulo2')  ">
+					<div class="thumbnail series" >
+						<img src="img/jones.jpg" id="jones">
+						<h3 class="titulo" id="titulo2">Jéssica Jones</h3>
+						<p class="sinopse_series" id="sinopse2">Desde que sua curta vida como super-heroína acabou de forma trágica, Jessica Jones (Krysten Ritter) vem reconstruindo sua carreira e passou a levar a vida como detetive particular no bairro de Hell's Kitchen, em Nova York,mesmo tentando fugir do passado, seus demônios particulares vão voltar a perseguí-la, na figura de Zebediah Kilgrave (David Tennant), um obsessivo vilão que fará de tudo para chamar a atenção de Jessica.</p>
+						<div class="caption">
+							<h3 id="nome2">Jéssica Jones</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('punho','sinopse3','nome3','titulo3')" onmouseout="imagem('punho','sinopse3','nome3','titulo3')">
+					<div class="thumbnail series">
+						<img src="img/punho.jpg" id="punho">
+						<h3 class="titulo" id="titulo3">Punho de Ferro</h3>
+						<p class="sinopse_series" id="sinopse3">Daniel Rand (Finn Jones) é um bilionário, herdeiro da fortuna das Indústrias Rayne. Por 15 anos, todos acreditaram que ele estava morto, após um acidente de avião no Himalaia que vitimou seus pais, Wendell e Heather Rand. Mas Danny foi salvo e viveu todo esse tempo na cidade mística de K'un-Lun, uma das Sete Capitais do Céu. Lá, Danny aprendeu a canalizar o seu chi e se tornou o Punho de Ferro. </p>
+						<div class="caption">
+							<h3 id="nome3">Punho de Ferro</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('demolidor','sinopse4','nome4','titulo4')" onmouseout="imagem('demolidor','sinopse4','nome4','titulo4')  ">
+					<div class="thumbnail series">
+						<img src="img/demolidor.jpg" id="demolidor">
+						<h3 class="titulo" id="titulo4">Demolidor</h3>
+						<p class="sinopse_series" id="sinopse4">O advogado Matt Murdock é cego, mas os seus outros quatro sentidos funcionam com uma nitidez sub-humana. De dia, Murdock representa os oprimidos e à noite, ele é o Demolidor, um vigilante mascarado e vingador implacável da justiça. Quando Wilson Fisk contrata Bullseye para matar Murdock, ele deve confiar em seus próprios sentidos e procurar os conspiradores contra a justiça, que pode incluir sua própria namorada Elektra.</p>
+						<div class="caption">
+							<h3 id="nome4">Demolidor</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('justiceiro','sinopse5','nome5','titulo5')" onmouseout="imagem('justiceiro','sinopse5','nome5','titulo5')  ">
+					<div class="thumbnail series">
+						<img src="img/justiceiro.jpg" id="justiceiro">
+						<h3 class="titulo" id="titulo5">Justiceiro</h3>
+						<p class="sinopse_series" id="sinopse5">O crime não dura quando Frank Castle está por perto. O veterano de guerra é impiedoso na sua guerra contra malfeitores, alimentada pelo ódio gerado quando sua família foi pega no fogo cruzado durante um tiroteio entre mafiosos</p>
+						<div class="caption">
+							<h3 id="nome5">Justiceiro</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('defensores','sinopse6','nome6','titulo6')" onmouseout="imagem('defensores','sinopse6','nome6','titulo6')">
+					<div class="thumbnail series" >
+						<img src="img/defensores.jpg" id="defensores">
+						<h3 class="titulo" id="titulo6">Os Defensores</h3>
+						<p class="sinopse_series" id="sinopse6">A minissérie reúne Matt Murdock (Charlie Cox), o Demolidor; Jessica Jones (Krysten Ritter), Luke Cage (Mike Colter) e Danny Rand (Finn Jones), o Punho de Ferro, e conta a história dos 'heróis imperfeitos de Hell's Kitchen'.</p>
+						<div class="caption">
+							<h3 id="nome6">Os Defensores</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('agentes','sinopse7','nome7','titulo7')" onmouseout="imagem('agentes','sinopse7','nome7','titulo7')">
+					<div class="thumbnail series" >
+						<img src="img/agentes.jpg" id="agentes">
+						<h3 class="titulo" id="titulo7">Agentes da S.H.I.E.L.D</h3>
+						<p class="sinopse_series" id="sinopse7">Após os acontecimentos em Nova York, retratados em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) deve mobilizar seus integrantes para solucionar vários casos relacionados com super-heróis. A equipe é liderada pelo agente Phil Coulson</p>
+						<div class="caption">
+							<h3 id="nome7">Agentes da S.H.I.E.L.D</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6" onmouseover="sinopse('carter','sinopse8','nome8','titulo8')" onmouseout="imagem('carter','sinopse8','nome8','titulo8')">
+					<div class="thumbnail series" >
+						<img src="img/carter.jpg" id="carter">
+						<h3 class="titulo" id="titulo8">Agente Carter</h3>
+						<p class="sinopse_series" id="sinopse8">Agent Carter conta a história Peggy Carter (Hayley Atwell). O ano é 1946, e Peggy se encontra marginalizada quando os homens retornam ao lar após a Guerra. Trabalhando para a SSR (Reserva Científica Estratégica, em inglês), Peggy precisa balancear o trabalho administrativo e missões secretas para Howard Stark, ao mesmo tempo em que leva uma vida solteira após perder o seu amor, Steve Rogers.</p>
+						<div class="caption">
+							<h3 id="nome8">Agente Carter</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+		 	</section>
+			<footer class="row" id="rodape">
+				<h4>Vinicius Henriques & Felipe Jesus - QI Escolas e Faculdades</h4>
+				<h4>Fone: (51)98941-9700</h4>
+				<h4>Email: Vinicius9194@gmail.com</h4>
+			</footer>
+		</nav>
+	</body>
+</html>

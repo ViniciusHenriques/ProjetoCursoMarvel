@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Marvel - Filmes</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type ="image/x-icon">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="row">
+				<div class="col-md-12 navbar navbar-inverse navbar-fixed-top menu" id="menu">
+					<div class="col-md-3 col-sm-4 col-xs-7" id="logo">
+						<img src="img/logo.png" class="imgFull" >
+					</div>
+					<div class="col-lg-9 col-sm-8 col-xs-5 collapse navbar-collapse" id="meumenu">
+
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li class="dropdown">
+						        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Heróis
+						        <span class="caret"></span></a>
+						        <ul class="dropdown-menu">
+						          <li><a href="filmes.html">Cinema</a></li>
+						          <li><a href="series.html">Séries</a></li>
+						        </ul>
+						      </li>
+							<li><a href="index.html#contato">Contato</a></li>
+						</ul>
+					</div>
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meumenu" style="background-color:black">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+			</div>
+		 	<section class="row" id="herois">
+		 		<div class="col-md-3 col-sm-6 " onmousemove="sinopse('foto','sinopse','nome','titulo')"
+		 		onmouseout="imagem('foto','sinopse','nome','titulo')  ">
+					<div class="thumbnail filmes" >
+						<img src="img/cap2.jpg" id="foto">
+						<h3 id="titulo" class="titulo">Steve Rogers</h3>
+						<p id="sinopse" class="sinopse">O Capitão América é um super-herói criado por Joe Simon e Jack Kirby. Sua primeira aparição foi na revista Captain America Comics , em março de 1941. O herói é um alter-ego de Steve Rogers, um garoto que foi transformado em um humano perfeito por um experimento científico do exército americano.</p>
+						<div class="caption">
+							<h3 id="nome">Capitão America</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto2','sinopse2','nome2','titulo2')"
+				onmouseout="imagem('foto2','sinopse2','nome2','titulo2')  ">
+					<div class="thumbnail filmes">
+						<img src="img/iron.jpg" id="foto2">
+						<h3 id="titulo2" class="titulo">Tony Stark</h3>
+						<p id="sinopse2" class="sinopse">Tony Stark é um bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. Em vez disso, ele constrói uma armadura blindada e enfrenta seus sequestradores. Ao voltar para os EUA, Stark aprimora a armadura e a utiliza para combater o crime.</p>
+						<div class="caption">
+							<h3 id="nome2">Homem de Ferro</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto3','sinopse3','nome3','titulo3')"
+				onmouseout="imagem('foto3','sinopse3','nome3','titulo3')  ">
+					<div class="thumbnail filmes">
+						<img src="img/spider.jpg" id="foto3">
+						<h3 id="titulo3" class="titulo">Peter Parker</h3>
+						<p id="sinopse3" class="sinopse">Depois de ser picado por uma aranha geneticamente modificada, Peter Parker ganha super poderes e as habilidades da aranha para se agarrar a qualquer superfície. Ele promete usá-los para combater o crime e começa a entender as palavras de seu querido tio Ben: com grandes poderes vêm grandes responsabilidades.</p>
+						<div class="caption">
+							<h3 id="nome3">Homem Aranha</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto4','sinopse4','nome4','titulo4')"
+				onmouseout="imagem('foto4','sinopse4','nome4','titulo4')  ">
+					<div class="thumbnail filmes">
+						<img src="img/panter.jpg" id="foto4">
+						<h3 id="titulo4" class="titulo"> T'Challa</h3>
+						<p id="sinopse4" class="sinopse">Após a morte do rei T'Chaka (John Kani), o príncipe T'Challa (Chadwick Boseman) retorna a Wakanda para a cerimônia de coroação. Nela são reunidas as cinco tribos que compõem o reino, sendo que uma delas, os Jabari, não apoia o atual governo. T'Challa logo recebe o apoio de Okoye.</p>
+						<div class="caption">
+							<h3 id="nome4">Pantera Negra</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto5','sinopse5','nome5','titulo5')"
+				onmouseout="imagem('foto5','sinopse5','nome5','titulo5')  ">
+					<div class="thumbnail filmes">
+						<img src="img/escarlat.jpg" id="foto5">
+						<h3 id="titulo5" class="titulo">Wanda Maximoff</h3>
+						<p id="sinopse5" class="sinopse"> Wanda Maximoff foi criada pela dupla Stan Lee e Jack Kirby, inicialmente era apenas mais uma mutante avulsa na Irmandade dos Mutantes, isso por um breve período, pois logo ela e seu irmão viram que aquilo não os satisfazia e decidiram entrar para uma outra equipe, Os Vingadores.</p>
+						<div class="caption">
+							<h3 id="nome5">Feiticeira Escarlate</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto6','sinopse6','nome6','titulo6')"
+				onmouseout="imagem('foto6','sinopse6','nome6','titulo6')  ">
+					<div class="thumbnail filmes">
+						<img src="img/thor.jpg" id="foto6">
+						<h3 id="titulo6" class="titulo">Thor</h3>
+						<p id="sinopse6" class="sinopse">Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono de Asgard de seu idoso pai. Porém, no dia de sua coroação, Thor reage com brutalidade quando os inimigos dos deuses entram no palácio violando o tratado. Enquanto seu irmão Loki conspira em Asgard, Thor, agora sem seus poderes, enfrenta sua maior ameaça.</p>
+						<div class="caption">
+							<h3 id="nome6">Thor</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto7','sinopse7','nome7','titulo7')"
+				onmouseout="imagem('foto7','sinopse7','nome7','titulo7')  ">
+					<div class="thumbnail filmes">
+						<img src="img/visao.jpg" id="foto7">
+						<h3 id="titulo7" class="titulo">Visão</h3>
+						<p id="sinopse7" class="sinopse">O sintozóide Ultron invadiu o laboratório do Pensador e levou um dos corpos e, com a ajuda, de Phineas T. Horton construiu um novo sintozóide para destruir os Vingadores. Ultron programou seus processadores neurais com os padrões cerebrais do até então falecido Magnum e implantou células sintetizadas especiais, que lhe permitem alterar sua massa e solidez.</p>
+						<div class="caption">
+							<h3 id="nome7">Visão</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto8','sinopse8','nome8','titulo8')"
+				onmouseout="imagem('foto8','sinopse8','nome8','titulo8')  ">
+					<div class="thumbnail filmes" >
+						<img src="img/gaviao.jpeg" id="foto8">
+						<h3 id="titulo8" class="titulo">Clint Barton</h3>
+						<p id="sinopse8" class="sinopse">Iniciou sua carreira como vilão do Homem de Ferro e nessa época se envolveu com a Viúva Negra, mas o relacionamento fracassou. Posteriormente se regenerou e entrou para os Vingadores, na mesma época em que o fizeram Mercúrio e a Feiticeira Escarlate.</p>
+						<div class="caption">
+							<h3 id="nome8">Gavião Arqueiro</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto9','sinopse9','nome9','titulo9')"
+				onmouseout="imagem('foto9','sinopse9','nome9','titulo9')  ">
+					<div class="thumbnail filmes">
+						<img src="img/hulk.jpg" id="foto9">
+						<h3 id="titulo9" class="titulo">Bruce Banner</h3>
+						<p id="sinopse9" class="sinopse">O cientista Bruce Banner se esconde no Brasil enquanto busca desesperadamente a cura da mutação que o transforma em um monstro incontrolável. Só assim ele poderá novamente levar uma vida normal e ficar ao lado da mulher que ama. Porém, durante este processo, ele tem que lutar contra um novo inimigo que quer capturá-lo, conhecido como "O Abominável".</p>
+						<div class="caption">
+							<h3 id="nome9">Hulk</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto10','sinopse10','nome10','titulo10')"
+				onmouseout="imagem('foto10','sinopse10','nome10','titulo10')  ">
+					<div class="thumbnail filmes">
+						<img src="img/guardioes.jpg" id="foto10">
+						<h3 id="titulo10" class="titulo">Guardiões da Galáxia</h3>
+						<p id="sinopse10" class="sinopse"> Para escapar do perigo, Quill une forças com quatro personagens fora do sistema: Groot, uma árvore humanóide , a sombria e perigosa Gamora, o guaxinim rápido no gatilho Rocket Racoon e o vingativo Drax, o Destruidor. Mas o Senhor das Estrelas descobre que a esfera roubada possui um poder capaz de mudar os rumos do universo, e logo o grupo deverá proteger o objeto para salvar o futuro da galáxia.</p>
+						<div class="caption">
+							<h3 id="nome10">Guardiões da Galáxia</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto11','sinopse11','nome11','titulo11')"
+				onmouseout="imagem('foto11','sinopse11','nome11','titulo11')  ">
+					<div class="thumbnail filmes">
+						<img src="img/formiga2.jpg" id="foto11">
+						<h3 id="titulo11" class="titulo">Scott Lang</h3>
+						<p id="sinopse11" class="sinopse">Forçado a sair de sua própria empresa, Dr. Hank Pym transforma um talentoso ladrão em Homem-Formiga para impedir que seu antigo pupilo consiga replicar a fórmula da roupa que dá o poder do encolhimento, força sobre-humana e a capacidade de controlar um exército de formigas.</p>
+						<div class="caption">
+							<h3 id="nome11">Homem Formiga</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto12','sinopse12','nome12','titulo12')"
+				onmouseout="imagem('foto12','sinopse12','nome12','titulo12')  ">
+					<div class="thumbnail filmes">
+						<img src="img/strange.jpg" id="foto12">
+						<h3 id="titulo12" class="titulo">Stephen Strange</h3>
+						<p id="sinopse12" class="sinopse">Sua vida muda completamente quando sofre um acidente de carro e fica com as mãos debilitadas. Ele parte para um lugar inesperado em busca de cura e esperança, um misterioso enclave chamado Kamar-Taj. Lá descobre que o local não é apenas um centro medicinal, mas também a linha de frente contra forças malignas místicas que desejam destruir nossa realidade.</p>
+						<div class="caption">
+							<h3 id="nome12">Doutor Estranho</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto13','sinopse13','nome13','titulo13')"
+				onmouseout="imagem('foto13','sinopse13','nome13','titulo13')  ">
+					<div class="thumbnail filmes">
+						<img src="img/maquina.png" id="foto13">
+						<h3 id="titulo13" class="titulo">James Rhodes</h3>
+						<p id="sinopse13" class="sinopse">Após a Guerra, Stark, que tinha secretamente se tornado o super-herói, ofereceu a Rhodes um emprego como seu motorista pessoal. Rhodes logo se tornou um dos colaboradores mais próximos de Stark. Quando Stark perdeu sua empresa para Obadiah Stane e caiu no alcoolismo, Rhodes assumiu o papel de Homem de Ferro, ajudando neste ínterim Stark a vencer o alcoolismo.</p>
+						<div class="caption">
+							<h3 id="nome13">Máquinha de Combate</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto14','sinopse14','nome14','titulo14')"
+				onmouseout="imagem('foto14','sinopse14','nome14','titulo14')  ">
+					<div class="thumbnail filmes">
+						<img src="img/falcao.jpg" id="foto14">
+						<h3 id="titulo14" class="titulo">Sam Wilson</h3>
+						<p id="sinopse14" class="sinopse"> Nasceu em um bairro barra pesada, onde seu pai,foi morto por tentar impedir uma briga. De volta de uma viagem ao Rio de Janeiro, onde dizia ter encontrado seu mascote falcão Asa Vermelha, foi dominado pelo Caveira Vermelha, que o usou em um de seus esquemas para enganar o Capitão América, o que acabou lhe dando poderes telepáticos com aves, através do cubo cósmico.</p>
+						<div class="caption">
+							<h3 id="nome14">Falcão</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto15','sinopse15','nome15','titulo15')"
+				onmouseout="imagem('foto15','sinopse15','nome15','titulo15')  ">
+					<div class="thumbnail filmes">
+						<img src="img/viuva.jpg" id="foto15">
+						<h3 id="titulo15" class="titulo">Natasha Romanoff</h3>
+						<p id="sinopse15" class="sinopse">Existem vários relatos do início da vida de Romanova. Um relato diz que o Partido Nazista colocou fogo no edifício aonde Natasha vivia em Stalingrad (Volgogrado atualmente) e sua mãe a atirou pela janela para um soldado Russo antes de morrer no fogo. O nome do soldado era Ivan Petrovitch e ele cuidou de Natasha por toda a sua vida, permanecendo ao seu lado como seu motorista.</p>
+						<div class="caption">
+							<h3 id="nome15">Viúva Negra</h3>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6" onmousemove="sinopse('foto16','sinopse16','nome16','titulo16')"
+				onmouseout="imagem('foto16','sinopse16','nome16','titulo16')  ">
+					<div class="thumbnail filmes">
+						<img src="img/capita.jpg" id="foto16">
+						<h3 id="titulo16" class="titulo">Carol Danvers</h3>
+						<p id="sinopse16" class="sinopse">A história acompanha Carol Danvers conforme ela se torna uma das heroínas mais poderosas do universo no momento em que a Terra se vê no meio de uma batalha galática entre duas raças alienígenas. Ambientado nos anos 1990, Capitã Marvel é uma aventura completamente nova de um período nunca visitado da história do Universo Cinematográfico da Marvel.</p>
+						<div class="caption">
+							<h3 id="nome16">Capitã Marvel</h3>
+
+
+						</div>
+					</div>
+				</div>
+		 	</section>
+			<footer class="row" id="rodape">
+				<h4>Vinicius Henriques & Felipe Jesus - QI Escolas e Faculdades</h4>
+				<h4>Fone: (51)98941-9700</h4>
+				<h4>Email: Vinicius9194@gmail.com</h4>
+			</footer>
+		</nav>
+	</body>
+</html>
